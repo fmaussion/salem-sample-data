@@ -1,0 +1,20 @@
+/*
+   CSS3 gradient
+   cptutils 1.46
+   Wed Aug 15 23:29:28 2012
+
+   http://soliton.vm.bytemark.co.uk/pub/cpt-city/td/tn/DEM_screen.png.index.html
+
+   Copyright:
+   Creative commons attribution share-alike 3.0 unported
+*/
+
+linear-gradient(
+  0deg,
+  rgb(  0,132, 53)   0.000%,
+  rgb( 51,204,  0)  12.500%,
+  rgb(244,240,113)  25.000%,
+  rgb(244,189, 69)  50.000%,
+  rgb(153,100, 43)  75.000%,
+  rgb(255,255,255) 100.000%
+  );
