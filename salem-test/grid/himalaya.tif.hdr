@@ -1,0 +1,20 @@
+ENVI
+description = {
+  File Resize Result, x resize factor: 1.000000, y resize factor: 1.000000.
+  [Mon Sep 19 23:46:20 2016]}
+samples = 1875
+lines   = 877
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 2
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+x start = 1360
+y start = 2217
+map info = {Geographic Lat/Lon, 1.0000, 1.0000, 78.31668014, 31.54166362, 8.3333337680e-03, 8.3333337680e-03, WGS-84, units=Degrees}
+coordinate system string = {GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]}
+wavelength units = Unknown
+band names = {
+ ROI Resize (Band 1:Tibet_srtm30.tif)}
