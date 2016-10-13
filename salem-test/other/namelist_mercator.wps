@@ -1,12 +1,3 @@
-&share
- wrf_core = 'ARW',
- max_dom = 4,
- start_date = '2015-01-01_00:00:00','2015-01-01_00:00:00','2015-01-01_00:00:00','2015-01-01_00:00:00',
- end_date   = '2015-01-02_00:00:00','2015-01-02_00:00:00','2015-01-02_00:00:00','2015-01-02_00:00:00',
- interval_seconds = 21600
- io_form_geogrid = 2,
-/
-
 &geogrid
  parent_id         =   1, 1, 2, 3,
  parent_grid_ratio =   1, 3, 5, 5,
@@ -14,25 +5,11 @@
  j_parent_start    =   1, 24, 97, 50,
  e_we              =  211, 178, 101, 136,
  e_sn              =  131, 220, 141, 136,
- geog_data_res = 'usgs_lakes+10m','usgs_lakes+5m','usgs_lakes+30s','usgs_lakes+30s',
  dx = 30000,
  dy = 30000,
  map_proj = 'mercator',
  ref_lat   =  -8.0,
  ref_lon   =  -62.0,
  truelat1  =  -8.0,
- geog_data_path = '/scratch/c7071035/Build_WRF/GEO/WPS_GEOG_com'
 /
-
-&ungrib
- out_format = 'WPS',
- prefix = 'FILE',
-/
-
-&metgrid
- fg_name = 'FILE','PRES'
- constants_name = '/scratch/c7071035/Build_WRF/DATA/ERAI/ERAI_invar/ERAI_invar'
- io_form_metgrid = 2,
-/
-
 
