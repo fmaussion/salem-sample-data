@@ -1,2 +1,3 @@
-# PyCharm stuffs
 .idea/
+.ipynb_checkpoints/
+.nbgrader.log
